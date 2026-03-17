@@ -12,4 +12,46 @@
 # print("Test GitHub")
 
 # Условия
-v1
+#v1
+# оператор присвоения "="
+# n1 = 10
+# n2 = 20
+# v2
+# n1, n2 = 10, 20 # множественное присвоение
+# бинареные операторы
+# операнды - это данные над которыми работает оператор
+# бинареные, потому что есть два операнда слева и справа
+# оператор - это символы
+# print(n1 > n2)
+# print(n1 >= n2)
+# print(n1 < n2)
+# print(n1 <= n2)
+# print(n1 == n2) # возвращение True если оба операнда равны (одинаковые)
+# print(n1 != n2) # возвращение True если оба операнда разные
+#
+# print(1 == 1 and 3 ==3) # "and" возвращает True если оба операнда равны, иначе - False
+# print(1 == 1 or 2 == 3) # "or" возвращает True если хотя бы один операнд равен True иначе - False
+#
+# is_calid = False
+# print(is_valid)
+# print(not is_calid) # not - это инверсия, если значение False станет True и наоборот
+#
+# print("Hello" in "hello wordl") # in вернет True, если подстрочка есть в строке
+
+###
+hours = int(input("Enter hours: "))
+
+#v1
+# if hours >= 12:
+#     print("PM")
+#     print("Sraka")
+# else: # else - это крайний случай и никогда не пишем условий
+#     print("AM")
+
+#v2
+if 12 <= hours < 24:
+    print("PM")
+elif 0 <= hours < 12: # elif - else-if цепочка их может сколько угодно
+    print("AM")
+else:
+    print("Try again")
