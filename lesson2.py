@@ -3,7 +3,13 @@
 # master ветка - это чистовик своего рода, полностью рабочий код
 # gitflow - алгоритм работы с гитом
 
-print("Hello World!")
-print("Goodbye World!")
+# print("Hello World!")
+# print("Goodbye World!")
 
-print("Test GitHub")
+# merge - слияние источников данных после изменений (в одну кучу) вместе с коммитом
+# rebase - подгружать все изменения, но наши изменения будут в самом вверху
+
+# print("Test GitHub")
+
+# Условия
+v1
